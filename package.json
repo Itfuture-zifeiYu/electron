@@ -1,0 +1,22 @@
+{
+  "name": "electron-renderer",
+  "version": "1.0.0",
+  "description": "electron的预加载脚本、渲染器",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itfuture-zifeiYu/electron.git"
+  },
+  "author": "itfuture",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itfuture-zifeiYu/electron/issues"
+  },
+  "homepage": "https://github.com/Itfuture-zifeiYu/electron#readme",
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}
