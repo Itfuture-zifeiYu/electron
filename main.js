@@ -1,6 +1,9 @@
 const { app, BrowserWindow,ipcMain } = require('electron')
 const path = require('node:path')
 
+// 调用自动更新程序模块
+require('update-electron-app')()
+
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
